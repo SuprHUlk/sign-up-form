@@ -1,0 +1,149 @@
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+
+:root {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: row wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    background-image: url(./images/anatolii-bazarov-yllwTbmLJ04-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-color: rgba(0,0,0,0.6);
+    height: 10vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.right {
+    padding-top: 2rem;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 37rem;
+    font-size: 1.3rem;
+    font-family: poppins;
+    padding-left: 3rem;
+}
+
+p {
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin: 0 0 0.8rem; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+h1 {
+    width: 50rem;
+    margin-bottom: 0; 
+    padding-left: 3rem;
+    font-family: poppins;
+}
+
+.form {
+    font-family: poppins;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    padding: 20px;
+    padding-left: 3rem;
+    box-shadow: 0px 10px 17px #888888;
+}
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    width: 20rem;
+    
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid rgb(77, 77, 77);
+}
+
+input:focus {
+    outline: none;
+    border: 0.15rem solid rgb(37, 150, 190);
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 3rem 1rem;
+    gap: 20px;
+    font-family: poppins;
+}
+
+button {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    font-family: poppins;
+    border: 0.15rem solid rgb(37, 150, 190);
+    background: transparent;
+}
+
+button:hover {
+    border: 0.15rem solid white;
+    background: rgb(37, 150, 190);
+    color: white;
+}
+
+.old-user {
+    font-size: 1.1rem;
+}
+
+a {
+    color: rgb(37, 150, 190);
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+em {
+    color: rgb(37, 150, 190) ;
+}
+
+

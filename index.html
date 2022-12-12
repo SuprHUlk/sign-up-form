@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign up form</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="left">
+                <div class="logo">LOGO</div>
+            </div>
+            <div class="right">
+                <div class="header">
+                    <div class="top"><p>THIS IS NOT A REAL ONLINE SERVICE!</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Sign up <em>now</em> to get started.</div>
+                    <br>You <em>know</em> you want to.
+                </div>
+                <form action="#">
+                    <h1>Let's do this!</h1>
+                    <div class="form">
+                        <div class="input one">
+                            <label for="first_name">First name</label>
+                            <input type="text" name="first_name" id="first_name" placeholder="Ayush" required>
+                        </div>
+                        <div class="input two">
+                            <label for="last_name">Last name</label>
+                            <input type="text" name="last_name" id="last_name" placeholder="kumar" required>
+                        </div>
+                        <div class="input three">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="example@google.com" required>
+                        </div>
+                        <div class="input four">
+                            <label for="phone_no">Phone number</label>
+                            <input type="text" name="phone_no" id="phone_no" placeholder="76******98" required minlength="9" maxlength="10">
+                        </div>
+                        <div class="input five">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" required id="password" placeholder="****" minlength="4" maxlength="4">
+                        </div>
+                        <div class="input six">
+                            <label for="confirm_password">Confirm password</label>
+                            <input type="password" name="password" required id="confirm_password" placeholder="****" minlength="4" maxlength="4">
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <div class="buttons">
+                            <button type="submit">Create Account</button>
+                        </div>
+                        <div class="old-user">Already have an account?<a href=""> Log in</a></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
